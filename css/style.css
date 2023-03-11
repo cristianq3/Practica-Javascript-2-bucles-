@@ -1,0 +1,18 @@
+table {
+    border: 5px solid rgb(0, 159, 195);    
+    padding: 5px;
+    border-radius: 3%;
+    background-color: antiquewhite;
+    
+}
+
+td {
+    border: 3px solid rgb(109, 206, 231);
+    padding: 4px;
+    margin: 5px;
+    border-radius: 25%;
+    background-color: rgba(247, 233, 233, 0.797);
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-size: 15px;
+}

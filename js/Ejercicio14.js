@@ -3,7 +3,7 @@
 
 let frase = prompt("Ingrese su frase aquí");
 
-if (frase !== null && frase !== undefined) {
+if (frase !== null) {
   for (contador = 0; contador < frase.length; contador++) {
     if (contador === 0) {  // la primera vuelta va sin el guión " - "
       document.write(frase.charAt(contador, 1));

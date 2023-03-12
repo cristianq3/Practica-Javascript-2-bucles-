@@ -22,25 +22,3 @@ if (!isNaN(numero) === true && numero >= 1 && numero <= 50) {
 } else {
   alert("Ingrese un Nº válido");
 }
-
-/* 
-let numRepetir = prompt('Introduce la cantidad de números a repetir:');
-
-if (!isNaN(numRepetir)) {
-  if (numRepetir > 0 && numRepetir <= 50) {
-
-
-    for (let i = numRepetir; i >= 1; i--) {
-
-
-      for (let j = i; j >= 1; j--) {
-        document.write(i);
-      }
-      document.write(`<br>`);
-    }
-  } else {
-    alert('El número introducido no es válido.');
-  }
-} else {
-  alert('No es un número');
-} */

@@ -14,10 +14,12 @@
 10
  */
 
-for (let i = 0; i <= 500; i++) {
+for (let i = 1; i <= 500; i++) {
   document.write(i);
 
   if (i % 4 === 0) {
+
+    
     document.write(` es multiplo de 4`);
   } else if (i % 9 === 0) {
     document.write(` es multiplo de 9`);
@@ -28,6 +30,7 @@ for (let i = 0; i <= 500; i++) {
       document.write(`<hr>`);
     }
     break;
+
   }
   document.write(`<br>`);
 }

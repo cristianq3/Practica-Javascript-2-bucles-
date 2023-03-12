@@ -15,7 +15,9 @@ for (let i = 0; i < frase.length; i++) {
     frase.charAt(i) === "O" ||
     frase.charAt(i) === "U"
   ) {
-    document.write(frase.charAt(i));
+    document.write("La primera vocal encontrada es la " + frase.charAt(i).toUpperCase());
+    document.write(` y está en la posición Nº <b> ${i+1} </b>`);
     break;
   }
+  
 }

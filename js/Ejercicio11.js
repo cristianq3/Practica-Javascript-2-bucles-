@@ -3,13 +3,13 @@
 Nota: ver funcion Math() https://www.w3schools.com/js/js_math.asp
  */
 // pedir las edades
-const edad1 = parseInt(prompt("Ingrese la edad de la primera persona"));
-const edad2 = parseInt(prompt("Ingrese la edad de la segunda persona"));
-const edad3 = parseInt(prompt("Ingrese la edad de la tercera persona"));
+const edad1 = parseInt(prompt("Ingrese la EDAD de la primera persona"));
+const edad2 = parseInt(prompt("Ingrese la EDAD de la segunda persona"));
+const edad3 = parseInt(prompt("Ingrese la EDAD de la tercera persona"));
 // Pedir los nombres
-const nombre1 = prompt("Por favor ingrese el nombre de la primera persona");
-const nombre2 = prompt("Por favor ingrese el nombre de la segunda persona");
-const nombre3 = prompt("Por favor ingrese el nombre de la tercera persona");
+const nombre1 = prompt("Por favor ingrese el NOMBRE de la primera persona");
+const nombre2 = prompt("Por favor ingrese el NOMBRE de la segunda persona");
+const nombre3 = prompt("Por favor ingrese el NOMBRE de la tercera persona");
 
 edadMayor = Math.max(edad1, edad2, edad3);
 
